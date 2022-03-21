@@ -31,5 +31,117 @@ html { box-sizing: border-box; }
 
 body {
 	margin: 0;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	color: #242424;
 }
 
+h1,h2,h3{
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	line-height: 1.25em;
+}
+
+.box1,
+.box2,
+.box3
+{
+	display:flex;
+	justify-content: center;
+}
+.header{
+	display: flex;
+	justify-content: space-between;
+	flex-basis: 1100px;
+}
+
+.logo{
+	width: 170px;
+	margin:30px 0;
+}
+.menu{
+	display:flex;
+	margin:30px 0;
+	list-style: none;
+}
+
+.menu li{
+	margin: 20px;
+	
+}
+.menu a{
+	text-decoration: none;
+	color: #242424;
+	border-radius: 20px;
+	padding:10px 15px;
+}
+.menu a:hover{
+	color: white;
+	background-color:#f195b2;
+	
+}
+
+
+.box2{
+	background-image: url(images/cupcake.jpg);
+	background-size: cover;
+	background-position: 0 45%;
+	color: white;
+}
+.hero{
+	display: flex;
+	flex-basis: 1100px;
+	flex-direction: column;
+}
+
+
+
+.hero h1{
+	font-size: 52px;
+	width:60%;
+	
+}
+.hero p{
+	font-size: 24px;
+	font-style: italic;
+	width:60%;
+}
+
+
+
+.welcome{
+	display:flex;
+	flex-basis: 1100px;
+	padding: 80px 0
+}
+
+h2{
+	font-size: 36px;
+	color:#3e606b;
+}
+
+.right{
+	border-radius:5px;
+	margin-left:30px
+}
+
+.left{
+	flex-basis: 550px;
+}
+
+.left a{
+	background-color: #f195b2;
+	padding: 15px 40px;
+	text-decoration: none;
+	color:white;
+	border-radius: 30px;
+}
+
+.left a:hover{
+	background-color: #d2567d;
+}
+
+.button{
+	margin-top: 40px;
+}

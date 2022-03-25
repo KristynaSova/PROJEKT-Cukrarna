@@ -183,16 +183,14 @@ h2{
 
 .product{
 	
-	width:250px;
+	/*width:250px;*/
+	flex: 0 0 calc((100% - 90px)/4);
+
 	background-color: white;
 	border-radius: 5px;
-	margin-right: 30px;
+	/*margin-right: 30px;*/
 	box-shadow: 3px 3px 10px #888888;
 	
-}
-
-.fourth{
-margin-right: 0;
 }
 
 
@@ -220,17 +218,18 @@ margin-right: 0;
 	flex-basis: 1100px;
 	padding: 80px 0;
 	margin:0 auto;
+	justify-content: space-between;
 }
 
+.box{
+	flex:0 0 calc((100% - 30px)/2);
+}
 .foto{
 	border-radius:5px;
-	margin-right:30px;
-	width:535px;
+	/*width:535px;*/
+	width: 100%;
 }
 
-.baking{
-	flex-basis: 535px;
-}
 
 
 
